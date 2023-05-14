@@ -34,7 +34,6 @@ export class BotonSesionComponent {
     }
     this.verificarSesion();
   }
-  
 
   verificarSesion(): void {
     if (localStorage.getItem("usuarioActual") != null) {
