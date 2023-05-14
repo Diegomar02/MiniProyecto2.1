@@ -21,7 +21,10 @@ import { AyudaComponent } from './ayuda/ayuda.component';
 import { BuscarComponent } from './buscar/buscar.component';
 import { PaisesService } from './shared/paises.service';
 import { BuscarDisponibilidadComponent } from './buscar-disponibilidad/buscar-disponibilidad.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { BuscarDisponibilidadComponent } from './buscar-disponibilidad/buscar-di
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatIconModule
   ],
   providers: [PaisesService],
   bootstrap: [AppComponent]
