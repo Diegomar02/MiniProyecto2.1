@@ -18,6 +18,10 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { HeaderComponent } from './header/header.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
+import { BuscarComponent } from './buscar/buscar.component';
+import { PaisesService } from './shared/paises.service';
+import { BuscarDisponibilidadComponent } from './buscar-disponibilidad/buscar-disponibilidad.component';
+
 
 @NgModule({
   declarations: [
@@ -35,14 +39,18 @@ import { AyudaComponent } from './ayuda/ayuda.component';
     ContactoComponent,
     HeaderComponent,
     InicioComponent,
-    AyudaComponent
+    AyudaComponent,
+    ContactoComponent,
+    BuscarComponent,
+    BuscarDisponibilidadComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [PaisesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

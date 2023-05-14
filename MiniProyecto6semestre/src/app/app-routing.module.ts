@@ -12,6 +12,9 @@ import { Airbnb9Component } from './airbnb9/airbnb9.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { HeaderComponent } from './header/header.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { BuscarDisponibilidadComponent } from './buscar-disponibilidad/buscar-disponibilidad.component';
+
 
 
 const routes: Routes = [
@@ -27,6 +30,9 @@ const routes: Routes = [
   { path:"",component:InicioComponent},
   { path:"header",component:HeaderComponent},
   { path:"ayuda",component:AyudaComponent},
+  { path:"contacto",component:ContactoComponent},
+  { path:"buscarDisponibilidad",component:BuscarDisponibilidadComponent}
+
 ];
 
 @NgModule({
