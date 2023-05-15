@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Airbnb1Component } from './airbnb1/airbnb1.component';
@@ -22,9 +23,10 @@ import { BuscarComponent } from './buscar/buscar.component';
 import { PaisesService } from './shared/paises.service';
 import { BuscarDisponibilidadComponent } from './buscar-disponibilidad/buscar-disponibilidad.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import { AirbnbComponent } from './airbnb/airbnb.component';
+
 
 @NgModule({
   declarations: [
@@ -46,7 +48,8 @@ import {MatIconModule} from '@angular/material/icon';
     ContactoComponent,
     BuscarComponent,
     BuscarDisponibilidadComponent,
-  
+    AirbnbComponent,
+
   ],
   imports: [
     BrowserModule,
