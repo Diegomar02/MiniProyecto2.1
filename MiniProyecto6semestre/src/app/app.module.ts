@@ -46,7 +46,7 @@ import {MatIconModule} from '@angular/material/icon';
     ContactoComponent,
     BuscarComponent,
     BuscarDisponibilidadComponent,
-
+  
   ],
   imports: [
     BrowserModule,

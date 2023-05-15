@@ -26,6 +26,9 @@ export class PaisesService {
     },
     {
       pais: "Canada"
+    },
+    {
+      pais: "Suiza",
     }
 
   ];

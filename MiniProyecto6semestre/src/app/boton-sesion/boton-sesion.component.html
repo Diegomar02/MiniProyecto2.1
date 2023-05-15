@@ -37,12 +37,12 @@
             (click)="eliminar = true; txtModal='Ingresa tu contrasena para eliminar.'">Borrar cuenta</a>
     </li>
     <li>
-        <a class="dropdown-item" href="#" *ngIf="sesionIniciada">Ver reservaciones</a>
+        <a routerLink="calendario" class="dropdown-item" href="#" *ngIf="sesionIniciada">Ver reservaciones</a>
     </li>
     <li>
         <hr class="dropdown-divider">
     </li>
-    <li><a class="dropdown-item" href="#">Ayuda</a></li>
+    <li><a routerLink="ayud" class="dropdown-item" href="#">Ayuda</a></li>
     <li><a class="dropdown-item" href="#" *ngIf="sesionIniciada" (click)="cerrarSesion()"><b>Cerrar sesion</b></a></li>
 </ul>
 
