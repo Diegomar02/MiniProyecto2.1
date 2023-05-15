@@ -1,11 +1,10 @@
-import { ChangeDetectorRef } from '@angular/core';
+import { Component,ChangeDetectorRef } from '@angular/core';
 import { CalendarOptions, DateSelectArg, EventClickArg, EventApi, EventInput } from '@fullcalendar/core';
 import interactionPlugin from '@fullcalendar/interaction';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import listPlugin from '@fullcalendar/list';
 import { INITIAL_EVENTS, createEventId } from './event-utils';
-import { Component, ElementRef, ViewChild } from "@angular/core";
 
 @Component({
   selector: 'app-calendario',

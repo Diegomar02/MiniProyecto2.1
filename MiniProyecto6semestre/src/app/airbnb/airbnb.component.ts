@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./airbnb.component.css']
 })
 export class AirbnbComponent {
+  title='pipe';
+  video='HQ55M3S0coo'
 
 }

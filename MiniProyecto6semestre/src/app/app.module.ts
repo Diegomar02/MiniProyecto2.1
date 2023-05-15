@@ -26,6 +26,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import { AirbnbComponent } from './airbnb/airbnb.component';
+import { VideoComponent } from './video/video.component';
+import { DomseguroPipe } from './airbnb/domseguro.pipe';
+import { FullCalendarModule } from '@fullcalendar/angular';
 
 
 @NgModule({
@@ -49,6 +52,9 @@ import { AirbnbComponent } from './airbnb/airbnb.component';
     BuscarComponent,
     BuscarDisponibilidadComponent,
     AirbnbComponent,
+    VideoComponent,
+    DomseguroPipe
+
 
   ],
   imports: [
@@ -57,7 +63,9 @@ import { AirbnbComponent } from './airbnb/airbnb.component';
     FormsModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    FullCalendarModule,
+
   ],
   providers: [PaisesService],
   bootstrap: [AppComponent]
